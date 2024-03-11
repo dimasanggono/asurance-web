@@ -1,0 +1,202 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  height: 70px;
+  background-color: #f3f3f3;
+}
+
+.navbar-brand {
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin: 0px 10px;
+  border-bottom: 3px none;
+}
+
+.btn-login {
+  padding: 10px;
+}
+
+.btn-login:hover {
+  background-color: #f3f3f3;
+  color: #dc2626;
+  font-weight: 600;
+  box-shadow: 2px 1px #dc2626;
+}
+
+.nav-link:hover {
+  color: #dc2626;
+  border-bottom: 2px solid red;
+}
+
+.jumbotron {
+  height: 400px;
+  background-color: #dc2626;
+}
+
+.img-jmb img {
+  width: 390px;
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: center;
+  height: 400px;
+}
+
+.jumbotron .text-content {
+  padding-left: 50px;
+  margin-top: 110px;
+  color: #fefefe;
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+.asurance {
+  margin-top: 50px;
+}
+
+.image-asurance img {
+  width: 550px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 25px;
+}
+
+.asurance-text {
+  padding: 20px 20px;
+
+  h1 {
+    font-weight: bold;
+  }
+
+  p {
+    text-align: justify;
+  }
+}
+
+.layanan {
+  margin-top: 50px;
+  padding: 50px;
+
+  h1 {
+    font-weight: bold;
+  }
+}
+
+.feature {
+  margin-top: 50px;
+  background-color: #fefefe;
+  margin-left: 15px;
+  border-radius: 15px;
+
+  p {
+    text-align: justify;
+  }
+}
+
+.feature:hover {
+  transform: scale(1);
+  border: 2px solid #dc2626;
+}
+
+.feature-icon {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  width: 50px;
+  height: 50px;
+  font-size: 1.7rem;
+}
+
+.testimonial {
+  margin-top: 30px;
+  background-color: #dc2626;
+  padding: 30px;
+}
+
+.testimonial h1 {
+  margin-top: 30px;
+  font-weight: bold;
+  color: #f3f3f3;
+  z-index: 999;
+}
+
+.testimonial .card {
+  margin: 30px 0px;
+  padding: 0px 0px;
+  border-radius: 16px;
+  height: 400px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.testimonial .card img {
+  padding-top: 40px;
+  margin: auto;
+  width: 150px;
+}
+
+.testimonial .card-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.testimonial .card-title {
+  font-size: 1.7 rem;
+  margin-bottom: 5px;
+}
+
+.testimonial .card p {
+  font-weight: 400;
+  color: #969494;
+}
+
+.login {
+  margin-top: 100px;
+}
+
+.login .box-left {
+  padding: 20px;
+}
+
+.login .box-left img {
+  border-radius: 15px;
+}
+.login .box-right {
+  padding: 20px;
+}
+
+.login .box-right a {
+  text-decoration: none;
+}
+
+.register {
+  margin-top: 100px;
+}
+
+.register .box-left {
+  padding: 70px 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.register .box-left img {
+  border-radius: 15px;
+}
+.register .box-right {
+  padding: 20px;
+}
+
+.login .box-right a {
+  text-decoration: none;
+}
